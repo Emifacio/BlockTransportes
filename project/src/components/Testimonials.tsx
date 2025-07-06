@@ -7,32 +7,32 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: "María González",
-      role: "Homeowner",
-      content: "Block Transportes made our family move completely stress-free. Their team was professional, punctual, and treated our belongings with exceptional care. Highly recommended!",
+      role: "Propietaria",
+      content: "Block Transportes hizo que nuestra mudanza familiar fuera completamente libre de estrés. Su equipo fue profesional, puntual y trató nuestras pertenencias con cuidado excepcional. ¡Altamente recomendado!",
       rating: 5
     },
     {
       name: "Carlos Mendoza",
-      role: "Business Owner",
-      content: "We relocated our entire office with Block Transportes. The efficiency and professionalism were outstanding. Zero downtime and everything arrived perfectly organized.",
+      role: "Empresario",
+      content: "Relocalizamos toda nuestra oficina con Block Transportes. La eficiencia y profesionalismo fueron sobresalientes. Cero tiempo de inactividad y todo llegó perfectamente organizado.",
       rating: 5
     },
     {
       name: "Ana Rodríguez",
-      role: "Customer",
-      content: "After 7 years in business, Block Transportes has proven their reliability time and again. Their attention to detail and customer service is unmatched.",
+      role: "Cliente",
+      content: "Después de 7 años en el negocio, Block Transportes ha demostrado su confiabilidad una y otra vez. Su atención al detalle y servicio al cliente no tiene igual.",
       rating: 5
     },
     {
       name: "Roberto Silva",
-      role: "Property Manager",
-      content: "I've worked with many transport companies, but Block Transportes stands out for their professionalism and competitive pricing. They're my go-to choice.",
+      role: "Administrador de Propiedades",
+      content: "He trabajado con muchas empresas de transporte, pero Block Transportes se destaca por su profesionalismo y precios competitivos. Son mi elección preferida.",
       rating: 5
     },
     {
       name: "Laura Fernández",
-      role: "Customer",
-      content: "The heavy lifting service was incredible. They handled our piano and antique furniture with such care. The WhatsApp communication made everything so easy!",
+      role: "Cliente",
+      content: "El servicio de carga pesada fue increíble. Manejaron nuestro piano y muebles antiguos con tanto cuidado. ¡La comunicación por WhatsApp hizo todo tan fácil!",
       rating: 5
     }
   ];
@@ -59,10 +59,10 @@ const Testimonials = () => {
           {/* Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
-              What Our <span className="text-gold-500">Clients Say</span>
+              Lo que Dicen Nuestros <span className="text-gold-500">Clientes</span>
             </h2>
             <p className="text-xl text-gray-600">
-              Don't just take our word for it - hear from our satisfied customers.
+              No solo tome nuestra palabra - escuche de nuestros clientes satisfechos.
             </p>
           </div>
           

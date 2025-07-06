@@ -16,13 +16,13 @@ const Footer = () => {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold">Block Transportes</h3>
-                  <p className="text-gray-400">Moving Argentina with Trust</p>
+                  <p className="text-gray-400">Moviendo Argentina con Confianza</p>
                 </div>
               </div>
               <p className="text-gray-300 leading-relaxed mb-6">
-                With over 7 years of experience, Block Transportes is your trusted partner for all 
-                transport and moving needs across Argentina. We combine professionalism, reliability, 
-                and exceptional service to make your move seamless.
+                Con más de 7 años de experiencia, Block Transportes es su socio de confianza para todas 
+                las necesidades de transporte y mudanza en Argentina. Combinamos profesionalismo, confiabilidad 
+                y servicio excepcional para hacer su mudanza sin problemas.
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition-colors duration-300">
@@ -39,18 +39,18 @@ const Footer = () => {
             
             {/* Quick Links */}
             <div>
-              <h4 className="text-xl font-bold mb-6">Quick Links</h4>
+              <h4 className="text-xl font-bold mb-6">Enlaces Rápidos</h4>
               <ul className="space-y-3">
-                <li><a href="#about" className="text-gray-300 hover:text-white transition-colors duration-300">About Us</a></li>
-                <li><a href="#services" className="text-gray-300 hover:text-white transition-colors duration-300">Services</a></li>
-                <li><a href="#testimonials" className="text-gray-300 hover:text-white transition-colors duration-300">Testimonials</a></li>
-                <li><a href="#contact" className="text-gray-300 hover:text-white transition-colors duration-300">Contact</a></li>
+                <li><a href="#about" className="text-gray-300 hover:text-white transition-colors duration-300">Acerca de Nosotros</a></li>
+                <li><a href="#services" className="text-gray-300 hover:text-white transition-colors duration-300">Servicios</a></li>
+                <li><a href="#testimonials" className="text-gray-300 hover:text-white transition-colors duration-300">Testimonios</a></li>
+                <li><a href="#contact" className="text-gray-300 hover:text-white transition-colors duration-300">Contacto</a></li>
               </ul>
             </div>
             
             {/* Contact Info */}
             <div>
-              <h4 className="text-xl font-bold mb-6">Contact Info</h4>
+              <h4 className="text-xl font-bold mb-6">Información de Contacto</h4>
               <div className="space-y-3">
                 <div className="flex items-center">
                   <Phone className="w-5 h-5 text-gold-400 mr-3" />
@@ -68,14 +68,14 @@ const Footer = () => {
           <div className="border-t border-gray-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="text-gray-400 mb-4 md:mb-0">
-                © 2024 Block Transportes. All rights reserved.
+                © 2024 Block Transportes. Todos los derechos reservados.
               </div>
               <div className="flex space-x-6">
                 <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
-                  Terms & Conditions
+                  Términos y Condiciones
                 </a>
                 <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
-                  Privacy Policy
+                  Política de Privacidad
                 </a>
               </div>
             </div>

@@ -30,10 +30,10 @@ const Contact = () => {
           {/* Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
-              Get in <span className="text-gold-500">Touch</span>
+              Póngase en <span className="text-gold-500">Contacto</span>
             </h2>
             <p className="text-xl text-gray-600">
-              Ready to move? Contact us for a free quote and personalized service.
+              ¿Listo para mudarse? Contáctenos para una cotización gratuita y servicio personalizado.
             </p>
           </div>
           
@@ -41,7 +41,7 @@ const Contact = () => {
             {/* Contact Info */}
             <div className="space-y-8">
               <div className="bg-white rounded-2xl p-8 shadow-lg">
-                <h3 className="text-2xl font-bold text-gray-800 mb-6">Contact Information</h3>
+                <h3 className="text-2xl font-bold text-gray-800 mb-6">Información de Contacto</h3>
                 
                 <div className="space-y-6">
                   <div className="flex items-center">
@@ -49,7 +49,7 @@ const Contact = () => {
                       <Phone className="w-6 h-6 text-gray-600" />
                     </div>
                     <div>
-                      <p className="text-gray-600">Phone</p>
+                      <p className="text-gray-600">Teléfono</p>
                       <p className="font-semibold text-gray-800">+54 9 11 3082-2583</p>
                     </div>
                   </div>
@@ -69,8 +69,8 @@ const Contact = () => {
                       <MapPin className="w-6 h-6 text-gray-600" />
                     </div>
                     <div>
-                      <p className="text-gray-600">Service Area</p>
-                      <p className="font-semibold text-gray-800">Argentina - National Coverage</p>
+                      <p className="text-gray-600">Área de Servicio</p>
+                      <p className="font-semibold text-gray-800">Argentina - Cobertura Nacional</p>
                     </div>
                   </div>
                 </div>
@@ -78,27 +78,27 @@ const Contact = () => {
               
               {/* Call to Action */}
               <div className="bg-gradient-to-r from-gray-800 to-black rounded-2xl p-8 text-white">
-                <h3 className="text-2xl font-bold mb-4">Need Immediate Assistance?</h3>
+                <h3 className="text-2xl font-bold mb-4">¿Necesita Asistencia Inmediata?</h3>
                 <p className="text-gray-100 mb-6">
-                  Our team is available to help you with urgent transport needs.
+                  Nuestro equipo está disponible para ayudarlo con necesidades de transporte urgentes.
                 </p>
                 <button 
                   onClick={() => window.open('https://wa.me/5491130822583?text=SOMOS%20BLOCK%20TRANSPORTES', '_blank')}
                   className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full font-bold transition-colors duration-300"
                 >
-                  WhatsApp Now
+                  WhatsApp Ahora
                 </button>
               </div>
             </div>
             
             {/* Contact Form */}
             <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <h3 className="text-2xl font-bold text-gray-800 mb-6">Request a Quote</h3>
+              <h3 className="text-2xl font-bold text-gray-800 mb-6">Solicitar Cotización</h3>
               
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                    Full Name
+                    Nombre Completo
                   </label>
                   <input
                     type="text"
@@ -113,7 +113,7 @@ const Contact = () => {
                 
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                    Email Address
+                    Dirección de Email
                   </label>
                   <input
                     type="email"
@@ -128,7 +128,7 @@ const Contact = () => {
                 
                 <div>
                   <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                    Phone Number
+                    Número de Teléfono
                   </label>
                   <input
                     type="tel"
@@ -143,7 +143,7 @@ const Contact = () => {
                 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                    Message
+                    Mensaje
                   </label>
                   <textarea
                     id="message"
@@ -152,7 +152,7 @@ const Contact = () => {
                     value={formData.message}
                     onChange={handleChange}
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-colors duration-200"
-                    placeholder="Tell us about your transport needs..."
+                    placeholder="Cuéntenos sobre sus necesidades de transporte..."
                     required
                   ></textarea>
                 </div>
@@ -162,7 +162,7 @@ const Contact = () => {
                   className="w-full bg-gradient-to-r from-gold-400 to-gold-500 text-white py-4 rounded-lg font-bold text-lg hover:from-gold-500 hover:to-gold-600 transition-all duration-300 transform hover:scale-105 flex items-center justify-center"
                 >
                   <Send className="w-5 h-5 mr-2" />
-                  Send Message
+                  Enviar Mensaje
                 </button>
               </form>
             </div>

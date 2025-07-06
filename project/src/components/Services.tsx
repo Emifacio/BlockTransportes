@@ -5,38 +5,38 @@ const Services = () => {
   const services = [
     {
       icon: Home,
-      title: "Residential Moves",
-      description: "Professional home moving services with careful handling of your personal belongings.",
+      title: "Mudanzas Residenciales",
+      description: "Servicios profesionales de mudanza con manejo cuidadoso de sus pertenencias personales.",
       color: "from-gray-600 to-gray-700"
     },
     {
       icon: Building,
-      title: "Business Relocations",
-      description: "Corporate moving solutions with minimal downtime and maximum efficiency.",
+      title: "Relocalización Empresarial",
+      description: "Soluciones de mudanza corporativa con tiempo de inactividad mínimo y máxima eficiencia.",
       color: "from-gray-700 to-gray-800"
     },
     {
       icon: Package,
-      title: "Packing & Unpacking",
-      description: "Expert packing services using high-quality materials to protect your items.",
+      title: "Embalaje y Desembalaje",
+      description: "Servicios expertos de embalaje utilizando materiales de alta calidad para proteger sus artículos.",
       color: "from-gray-500 to-gray-600"
     },
     {
       icon: Truck,
-      title: "Heavy Lifting",
-      description: "Specialized equipment and trained professionals for heavy and complex items.",
+      title: "Carga Pesada",
+      description: "Equipamiento especializado y profesionales entrenados para artículos pesados y complejos.",
       color: "from-gray-800 to-black"
     },
     {
       icon: MapPin,
-      title: "National Coverage",
-      description: "Comprehensive transport services throughout Argentina with reliable delivery.",
+      title: "Cobertura Nacional",
+      description: "Servicios de transporte integrales en toda Argentina con entrega confiable.",
       color: "from-gray-600 to-gray-700"
     },
     {
       icon: Shield,
-      title: "Insured Transport",
-      description: "Full insurance coverage for peace of mind during your move.",
+      title: "Transporte Asegurado",
+      description: "Cobertura de seguro completa para su tranquilidad durante la mudanza.",
       color: "from-gray-700 to-gray-800"
     }
   ];
@@ -48,10 +48,10 @@ const Services = () => {
           {/* Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
-              Our <span className="text-gold-500">Services</span>
+              Nuestros <span className="text-gold-500">Servicios</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive transport solutions tailored to meet your specific needs with professional excellence.
+              Soluciones de transporte integrales adaptadas a sus necesidades específicas con excelencia profesional.
             </p>
           </div>
           

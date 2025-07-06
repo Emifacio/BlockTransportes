@@ -5,23 +5,23 @@ const About = () => {
   const values = [
     {
       icon: Shield,
-      title: "Safety First",
-      description: "Your belongings are protected with our comprehensive insurance and careful handling protocols."
+      title: "Seguridad Primero",
+      description: "Sus pertenencias están protegidas con nuestro seguro integral y protocolos de manejo cuidadoso."
     },
     {
       icon: Clock,
-      title: "Punctuality",
-      description: "We respect your time and deliver on our promises with precision and reliability."
+      title: "Puntualidad",
+      description: "Respetamos su tiempo y cumplimos nuestras promesas con precisión y confiabilidad."
     },
     {
       icon: Award,
-      title: "Excellence",
-      description: "7+ years of proven track record in providing exceptional transport services."
+      title: "Excelencia",
+      description: "7+ años de historial comprobado en proporcionar servicios de transporte excepcionales."
     },
     {
       icon: Users,
-      title: "Professional Team",
-      description: "Experienced professionals trained in the latest transport and logistics techniques."
+      title: "Equipo Profesional",
+      description: "Profesionales experimentados entrenados en las últimas técnicas de transporte y logística."
     }
   ];
 
@@ -32,11 +32,11 @@ const About = () => {
           {/* Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
-              About <span className="text-gold-500">Block Transportes</span>
+              Acerca de <span className="text-gold-500">Block Transportes</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              For over 7 years, Block Transportes has been Argentina's trusted partner for residential and commercial moves. 
-              We've built our reputation on three core principles: safety, reliability, and exceptional service.
+              Durante más de 7 años, Block Transportes ha sido el socio de confianza de Argentina para mudanzas residenciales y comerciales. 
+              Hemos construido nuestra reputación en tres principios fundamentales: seguridad, confiabilidad y servicio excepcional.
             </p>
           </div>
           
@@ -58,15 +58,15 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center text-white">
               <div>
                 <div className="text-4xl lg:text-5xl font-bold text-gold-400 mb-2">7+</div>
-                <div className="text-lg text-gray-300">Years of Experience</div>
+                <div className="text-lg text-gray-300">Años de Experiencia</div>
               </div>
               <div>
                 <div className="text-4xl lg:text-5xl font-bold text-gold-400 mb-2">1000+</div>
-                <div className="text-lg text-gray-300">Successful Moves</div>
+                <div className="text-lg text-gray-300">Mudanzas Exitosas</div>
               </div>
               <div>
                 <div className="text-4xl lg:text-5xl font-bold text-gold-400 mb-2">100%</div>
-                <div className="text-lg text-gray-300">Customer Satisfaction</div>
+                <div className="text-lg text-gray-300">Satisfacción del Cliente</div>
               </div>
             </div>
           </div>

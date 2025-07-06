@@ -35,7 +35,7 @@ const Hero = () => {
           
           {/* Slogan */}
           <p className="text-xl lg:text-2xl text-gray-100 mb-8 font-medium">
-            Moving Argentina with Trust and Precision
+            Moviendo Argentina con Confianza y Precisión
           </p>
           
           {/* Experience badge */}
@@ -43,7 +43,7 @@ const Hero = () => {
             <div className="bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 border border-white/20">
               <div className="flex items-center space-x-2">
                 <Star className="w-5 h-5 text-gold-400 fill-current" />
-                <span className="text-white font-semibold">7+ Years of Excellence</span>
+                <span className="text-white font-semibold">7+ Años de Excelencia</span>
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@ const Hero = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button className="group bg-gradient-to-r from-gold-400 to-gold-500 text-white px-8 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-gold-400/25 transition-all duration-300 transform hover:scale-105">
-              Get a Free Quote
+              Obtener Cotización Gratuita
               <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300 inline-block">→</span>
             </button>
             
@@ -60,7 +60,7 @@ const Hero = () => {
               className="group bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-bold text-lg shadow-2xl transition-all duration-300 transform hover:scale-105 flex items-center"
             >
               <MessageCircle className="w-5 h-5 mr-2" />
-              Talk to us on WhatsApp
+              Hablar por WhatsApp
             </button>
           </div>
         </div>
