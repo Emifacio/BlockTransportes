@@ -3,7 +3,7 @@ import { MessageCircle } from 'lucide-react';
 
 const WhatsAppButton = () => {
   const handleClick = () => {
-    window.open('https://wa.me/5491124044951?text=Hola.%20C%C3%B3mo%20est%C3%A1s%3F%20Vi%20el%20anuncio%20de%20fletes%20y%20mudanzas%20de%20Block.', '_blank');
+    window.open('https://wa.me/5491130822583?text=Hola.%20C%C3%B3mo%20est%C3%A1s%3F%20Vi%20el%20anuncio%20de%20fletes%20y%20mudanzas%20de%20Block.', '_blank');
   };
 
   return (
