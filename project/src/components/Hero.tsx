@@ -56,7 +56,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button className="group bg-gradient-to-r from-gold-400 to-gold-500 text-white px-8 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-gold-400/25 transition-all duration-300 transform hover:scale-105">
               Obtener Cotización Gratuita
-              <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300 inline-block text-5xl">→</span>
+              <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300 inline-block text-2xl">→</span>
             </button>
             
             <button 
