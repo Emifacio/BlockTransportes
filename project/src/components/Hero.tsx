@@ -1,9 +1,13 @@
 import React from 'react';
-import { Truck, MessageCircle, Star } from 'lucide-react';
+import { Truck, MessageCircle, Star, Instagram } from 'lucide-react';
 
 const Hero = () => {
   const handleWhatsAppClick = () => {
     window.open('https://wa.me/5491130822583?text=SOMOS%20BLOCK%20TRANSPORTES', '_blank');
+  };
+
+  const handleInstagramClick = () => {
+    window.open('https://www.instagram.com/blocktransportes', '_blank');
   };
 
   return (
@@ -61,6 +65,14 @@ const Hero = () => {
             >
               <MessageCircle className="w-5 h-5 mr-2" />
               Hablar por WhatsApp
+            </button>
+
+            <button 
+              onClick={handleInstagramClick}
+              className="group bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white px-8 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105 flex items-center"
+            >
+              <Instagram className="w-5 h-5 mr-2" />
+              Síguenos en Instagram
             </button>
           </div>
         </div>
