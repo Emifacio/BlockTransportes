@@ -56,14 +56,14 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button className="group bg-gradient-to-r from-gold-400 to-gold-500 text-white px-8 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-gold-400/25 transition-all duration-300 transform hover:scale-105">
               Obtener Cotización Gratuita
-              <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300 inline-block">→</span>
+              <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300 inline-block text-5xl">→</span>
             </button>
             
             <button 
               onClick={handleWhatsAppClick}
               className="group bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-bold text-lg shadow-2xl transition-all duration-300 transform hover:scale-105 flex items-center"
             >
-              <MessageCircle className="w-5 h-5 mr-2" />
+              <MessageCircle className="w-10 h-10 mr-2" />
               Hablar por WhatsApp
             </button>
 
@@ -71,7 +71,7 @@ const Hero = () => {
               onClick={handleInstagramClick}
               className="group bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white px-8 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105 flex items-center"
             >
-              <Instagram className="w-5 h-5 mr-2" />
+              <Instagram className="w-10 h-10 mr-2" />
               Síguenos en Instagram
             </button>
           </div>
