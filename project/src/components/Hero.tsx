@@ -12,6 +12,18 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen bg-white overflow-hidden flex flex-col justify-between">
+      <style>
+        {`
+          @keyframes moveBlocks {
+            0% {
+              background-position: 0px bottom;
+            }
+            100% {
+              background-position: -240px bottom;
+            }
+          }
+        `}
+      </style>
       
       <div className="flex-1 flex flex-col items-center justify-center px-4 pt-24 pb-8">
         {/* Main heading */}
@@ -30,12 +42,14 @@ const Hero = () => {
         backgroundImage: `url('data:image/svg+xml;utf8,<svg width=\"240\" height=\"90\" viewBox=\"0 0 240 90\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"60\" width=\"25\" height=\"25\" fill=\"%23ffe066\"/><rect x=\"35\" y=\"60\" width=\"25\" height=\"25\" fill=\"%23ffe066\"/><rect x=\"70\" y=\"60\" width=\"25\" height=\"25\" fill=\"%23ffe066\"/><rect x=\"105\" y=\"60\" width=\"25\" height=\"25\" fill=\"%23ffe066\"/><rect x=\"0\" y=\"30\" width=\"25\" height=\"25\" fill=\"%23ffe066\"/><rect x=\"35\" y=\"30\" width=\"25\" height=\"25\" fill=\"%23ffe066\"/><rect x=\"0\" y=\"0\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"35\" y=\"0\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"70\" y=\"0\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"105\" y=\"0\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"70\" y=\"30\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"105\" y=\"30\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"140\" y=\"60\" width=\"25\" height=\"25\" fill=\"%23ffe066\"/><rect x=\"175\" y=\"60\" width=\"25\" height=\"25\" fill=\"%23ffe066\"/><rect x=\"210\" y=\"60\" width=\"25\" height=\"25\" fill=\"%23ffe066\"/><rect x=\"140\" y=\"30\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"175\" y=\"30\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"210\" y=\"30\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"175\" y=\"0\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"210\" y=\"0\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"140\" y=\"0\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"70\" y=\"60\" width=\"25\" height=\"25\" fill=\"%23ffe066\"/></svg>')`,
         backgroundRepeat: 'repeat-x',
         backgroundPosition: 'bottom',
+        animation: 'moveBlocks 8s linear infinite',
       }} />
       <div className="w-full" style={{
         height: '90px',
         backgroundImage: `url('data:image/svg+xml;utf8,<svg width=\"240\" height=\"90\" viewBox=\"0 0 240 90\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"60\" width=\"25\" height=\"25\" fill=\"%23ffe066\"/><rect x=\"35\" y=\"60\" width=\"25\" height=\"25\" fill=\"%23ffe066\"/><rect x=\"70\" y=\"60\" width=\"25\" height=\"25\" fill=\"%23ffe066\"/><rect x=\"105\" y=\"60\" width=\"25\" height=\"25\" fill=\"%23ffe066\"/><rect x=\"0\" y=\"30\" width=\"25\" height=\"25\" fill=\"%23ffe066\"/><rect x=\"35\" y=\"30\" width=\"25\" height=\"25\" fill=\"%23ffe066\"/><rect x=\"0\" y=\"0\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"35\" y=\"0\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"70\" y=\"0\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"105\" y=\"0\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"70\" y=\"30\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"105\" y=\"30\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"140\" y=\"60\" width=\"25\" height=\"25\" fill=\"%23ffe066\"/><rect x=\"175\" y=\"60\" width=\"25\" height=\"25\" fill=\"%23ffe066\"/><rect x=\"210\" y=\"60\" width=\"25\" height=\"25\" fill=\"%23ffe066\"/><rect x=\"140\" y=\"30\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"175\" y=\"30\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"210\" y=\"30\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"175\" y=\"0\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"210\" y=\"0\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"140\" y=\"0\" width=\"25\" height=\"25\" fill=\"%23000\"/><rect x=\"70\" y=\"60\" width=\"25\" height=\"25\" fill=\"%23ffe066\"/></svg>')`,
         backgroundRepeat: 'repeat-x',
         backgroundPosition: 'bottom',
+        animation: 'moveBlocks 8s linear infinite',
       }} />
       
       {/* Spacer to raise the block pattern higher above the bottom */}
