@@ -6,7 +6,8 @@ const SocialMedia = () => {
     {
       name: "Instagram",
       icon: Instagram,
-      href: "#",
+      href: "@https://www.instagram.com/blocktransportes/",
+      target:"_blank",
       color: "from-pink-500 to-purple-600",
       hoverColor: "hover:from-pink-600 hover:to-purple-700"
     },

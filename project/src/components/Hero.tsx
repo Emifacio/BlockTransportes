@@ -11,72 +11,35 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black overflow-hidden">
-      {/* Background overlay */}
-      <div className="absolute inset-0 bg-black/20"></div>
+    <section className="relative min-h-screen bg-white overflow-hidden flex flex-col justify-between">
       
-      {/* Floating elements */}
-      <div className="absolute top-20 left-10 w-20 h-20 bg-gold-400/10 rounded-full animate-pulse"></div>
-      <div className="absolute bottom-32 right-20 w-32 h-32 bg-green-400/10 rounded-full animate-pulse delay-1000"></div>
-      
-      <div className="relative z-10 container mx-auto px-4 py-20 lg:py-32">
-        <div className="max-w-4xl mx-auto text-center text-white">
-          {/* Logo/Brand */}
-          <div className="flex items-center justify-center mb-8">
-            <div className="bg-gradient-to-r from-gold-400 to-gold-500 p-4 rounded-2xl shadow-2xl">
-              <Truck className="w-12 h-12 text-white" />
-            </div>
-          </div>
-          
-          {/* Main heading */}
-          <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight">
-            <span className="bg-gradient-to-r from-white to-gray-100 bg-clip-text text-transparent">
-              BLOCK
-            </span>
-            <br />
-            <span className="text-gold-400">TRANSPORTES</span>
-          </h1>
-          
-          {/* Slogan */}
-          <p className="text-xl lg:text-2xl text-gray-100 mb-8 font-medium">
-            Moviendo Argentina con Confianza y Precisión
-          </p>
-          
-          {/* Experience badge */}
-          <div className="flex items-center justify-center mb-12">
-            <div className="bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 border border-white/20">
-              <div className="flex items-center space-x-2">
-                <Star className="w-5 h-5 text-gold-400 fill-current" />
-                <span className="text-white font-semibold">7+ Años de Excelencia</span>
-              </div>
-            </div>
-          </div>
-          
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="group bg-gradient-to-r from-gold-400 to-gold-500 text-white px-8 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-gold-400/25 transition-all duration-300 transform hover:scale-105">
-              Obtener Cotización Gratuita
-              <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300 inline-block text-2xl">→</span>
-            </button>
-            
-            <button 
-              onClick={handleWhatsAppClick}
-              className="group bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-bold text-lg shadow-2xl transition-all duration-300 transform hover:scale-105 flex items-center"
-            >
-              <MessageCircle className="w-10 h-10 mr-2" />
-              Hablar por WhatsApp
-            </button>
-
-            <button 
-              onClick={handleInstagramClick}
-              className="group bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white px-8 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105 flex items-center"
-            >
-              <Instagram className="w-10 h-10 mr-2" />
-              Síguenos en Instagram
-            </button>
-          </div>
-        </div>
+      <div className="flex-1 flex flex-col items-center justify-center px-4 pt-24 pb-8">
+        {/* Main heading */}
+        <h1 className="text-7xl md:text-8xl font-extrabold text-black tracking-tight mb-4 text-center" style={{letterSpacing: '0.02em'}}>
+          BLOCK
+        </h1>
+        {/* Subtitle */}
+        <h2 className="text-2xl md:text-3xl font-bold text-black tracking-wide mb-12 text-center uppercase" style={{letterSpacing: '0.08em'}}>
+          TRANSPORTES Y MUDANZAS
+        </h2>
+        {/* Optionally, add CTA buttons here if desired */}
       </div>
+      {/* Block pattern at the bottom */}
+      <div className="w-full" style={{
+        height: '90px',
+        backgroundImage: `url('data:image/svg+xml;utf8,<svg width=\"210\" height=\"90\" viewBox=\"0 0 210 90\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"60\" width=\"30\" height=\"30\" fill=\"%23ffe066\"/><rect x=\"30\" y=\"60\" width=\"30\" height=\"30\" fill=\"%23ffe066\"/><rect x=\"60\" y=\"60\" width=\"30\" height=\"30\" fill=\"%23ffe066\"/><rect x=\"90\" y=\"60\" width=\"30\" height=\"30\" fill=\"%23ffe066\"/><rect x=\"0\" y=\"30\" width=\"30\" height=\"30\" fill=\"%23ffe066\"/><rect x=\"30\" y=\"30\" width=\"30\" height=\"30\" fill=\"%23ffe066\"/><rect x=\"0\" y=\"0\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"30\" y=\"0\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"60\" y=\"0\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"90\" y=\"0\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"60\" y=\"30\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"90\" y=\"30\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"120\" y=\"60\" width=\"30\" height=\"30\" fill=\"%23ffe066\"/><rect x=\"150\" y=\"60\" width=\"30\" height=\"30\" fill=\"%23ffe066\"/><rect x=\"180\" y=\"60\" width=\"30\" height=\"30\" fill=\"%23ffe066\"/><rect x=\"120\" y=\"30\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"150\" y=\"30\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"180\" y=\"30\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"150\" y=\"0\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"180\" y=\"0\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"120\" y=\"0\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"60\" y=\"60\" width=\"30\" height=\"30\" fill=\"%23ffe066\"/></svg>')`,
+        backgroundRepeat: 'repeat-x',
+        backgroundPosition: 'bottom',
+      }} />
+      <div className="w-full" style={{
+        height: '90px',
+        backgroundImage: `url('data:image/svg+xml;utf8,<svg width=\"210\" height=\"90\" viewBox=\"0 0 210 90\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"60\" width=\"30\" height=\"30\" fill=\"%23ffe066\"/><rect x=\"30\" y=\"60\" width=\"30\" height=\"30\" fill=\"%23ffe066\"/><rect x=\"60\" y=\"60\" width=\"30\" height=\"30\" fill=\"%23ffe066\"/><rect x=\"90\" y=\"60\" width=\"30\" height=\"30\" fill=\"%23ffe066\"/><rect x=\"0\" y=\"30\" width=\"30\" height=\"30\" fill=\"%23ffe066\"/><rect x=\"30\" y=\"30\" width=\"30\" height=\"30\" fill=\"%23ffe066\"/><rect x=\"0\" y=\"0\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"30\" y=\"0\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"60\" y=\"0\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"90\" y=\"0\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"60\" y=\"30\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"90\" y=\"30\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"120\" y=\"60\" width=\"30\" height=\"30\" fill=\"%23ffe066\"/><rect x=\"150\" y=\"60\" width=\"30\" height=\"30\" fill=\"%23ffe066\"/><rect x=\"180\" y=\"60\" width=\"30\" height=\"30\" fill=\"%23ffe066\"/><rect x=\"120\" y=\"30\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"150\" y=\"30\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"180\" y=\"30\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"150\" y=\"0\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"180\" y=\"0\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"120\" y=\"0\" width=\"30\" height=\"30\" fill=\"%23000\"/><rect x=\"60\" y=\"60\" width=\"30\" height=\"30\" fill=\"%23ffe066\"/></svg>')`,
+        backgroundRepeat: 'repeat-x',
+        backgroundPosition: 'bottom',
+      }} />
+      
+      {/* Spacer to raise the block pattern higher above the bottom */}
+      <div style={{ height: '95px' }} />
       
       {/* Bottom wave */}
       <div className="absolute bottom-0 left-0 right-0">
